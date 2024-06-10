@@ -1,11 +1,11 @@
 {
-    "name": "selected-character-count",
-    "displayName": "Selected Character Count",
+    "name": "count-character",
+    "displayName": "Character Count in Selected Text",
     "description": "Gets character count of selected text",
     "version": "0.0.1",
-    "publisher": "mousetraps",
+    "publisher": "animesh",
     "engines": {
-        "vscode": "^1.19.0"
+        "vscode": "^1.9"
     },
     "categories": [
         "Other"
@@ -28,10 +28,10 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.5.2",
-        "vscode": "^1.1.5",
-        "mocha": "^3.5.0",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "typescript": "^5.4.5",
+        "vscode": "^1.90.0",
+        "mocha": "^10.4.0",
+        "@types/node": "^20.14.2",
+        "@types/mocha": "^10.0.6"
     }
 }

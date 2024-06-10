@@ -1,4 +1,4 @@
-# VS Code Selected Character Count
+# VS Code Selected Character Count based on https://marketplace.visualstudio.com/items?itemName=mousetraps.selected-character-count 
 
 Simple utility to display the character count of a selected range.
 ![image](https://user-images.githubusercontent.com/762848/36338196-865ca69e-135d-11e8-8eac-11ba4876dd7c.png)
