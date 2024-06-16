@@ -1,12 +1,42 @@
-# VS Code Selected Character Count based on https://marketplace.visualstudio.com/items?itemName=mousetraps.selected-character-count 
+# count-character 
 
-Simple utility to display the character count of a selected range.
-![image](https://user-images.githubusercontent.com/762848/36338196-865ca69e-135d-11e8-8eac-11ba4876dd7c.png)
+https://marketplace.visualstudio.com/items?itemName=fuzzylife.character
+
+## Features
+
+Count Specific Character(s) in Selected Text
+
+## Requirements
+
+* [Visual Studio Code](http://code.visualstudio.com/)
+* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
 
-For those times where you can't tell whether that hexadecimal value is complete. 
+```
+npx --package yo --package generator-code -- yo code #git clone https://github.com/animesh/vscode-selected-character-count
+cd vscode-selected-character-count 
+npm run compile
+```
 
-![image](https://user-images.githubusercontent.com/762848/36338135-07014900-135c-11e8-80e3-ec2a24501d85.png)
+## Extension Settings / Usage
 
-Also useful when you want a quick gut check on whether your line ending is LF or CLRF.
-![image](https://user-images.githubusercontent.com/762848/36338190-535a5fa2-135d-11e8-98a5-32e8f14bfdd7.png)
+ctr-shift-P / >count
+
+## Known Issues
+
+so far counts occurence of characer ">" representing number of sequences in open Fasta file [format](https://en.wikipedia.org/wiki/FASTA_format)
+
+
+## Create/contribution steps
+
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
+
+```git clone https://github.com/animesh/vscode-selected-character-count
+npm install -g @vscode/vsce
+cd vscode-selected-character-count
+vsce package
+vsce login fuzzylife #token https://fuzzylife.visualstudio.com/_usersSettings/tokens
+vsce publish 
+
+```

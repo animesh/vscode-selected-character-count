@@ -1,7 +1,5 @@
 # Change Log
-All notable changes to the "selected-character-count" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.1]
 
-## [Unreleased]
-- Initial release
+- Initial release so far counts occurence of characer ">" representing number of sequences in the open Fasta file
