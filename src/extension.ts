@@ -9,8 +9,8 @@ export function activate(context: vsc.ExtensionContext) {
         if (editor) {
             let document = editor.document;
             let text = document.getText();
-            let wordCount = text.split(/\s+/).length;
-			let fastaCount = text.split(">").length-1;
+            let wordCount = text.split(/\s+/).length - 1;
+			let fastaCount = text.split(/^>/mg).length - 1;
             vsc.window.showInformationMessage(`Word count: ${wordCount}`);
             vsc.window.showInformationMessage(`Fasta count: ${fastaCount}`);
         }
